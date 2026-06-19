@@ -1,0 +1,44 @@
+# Backend - Java/Maven
+backend/target/
+backend/*.class
+backend/*.jar
+backend/dist/
+backend/build/
+backend/.gradle/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.idea/
+backend/*.iml
+backend/.DS_Store
+
+# Frontend - Node.js
+frontend/node_modules/
+frontend/npm-debug.log
+frontend/yarn-error.log
+frontend/build/
+frontend/dist/
+frontend/.DS_Store
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.log
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# OS
+Thumbs.db
+.DS_Store
+
+# General
+*.tmp
+*.bak
+.cache/
