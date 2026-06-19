@@ -1,5 +1,11 @@
 # Store Rating App
 
+### Live Demo
+🔗 https://store-rating-app-opal.vercel.app/login
+
+### GitHub Repository
+🔗 https://github.com/aryandeore2004/store-rating-app
+
 ## Developed By
 
 **Aryan Deore**
