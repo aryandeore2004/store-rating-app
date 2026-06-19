@@ -51,7 +51,8 @@ function UsersTab() {
     setUsers(res.data);
   };
 
-  useEffect(() => { load(); /* eslint-disable-next-line */ }, [sortBy, sortDir]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => { load(); }, [sortBy, sortDir]);
 
   const toggleSort = (field) => {
     if (sortBy === field) setSortDir(sortDir === "asc" ? "desc" : "asc");
@@ -117,7 +118,8 @@ function StoresTab() {
     setStores(res.data);
   };
 
-  useEffect(() => { load(); /* eslint-disable-next-line */ }, [sortBy, sortDir]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => { load(); }, [sortBy, sortDir]);
 
   const toggleSort = (field) => {
     if (sortBy === field) setSortDir(sortDir === "asc" ? "desc" : "asc");
